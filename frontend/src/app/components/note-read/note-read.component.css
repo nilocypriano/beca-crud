@@ -1,0 +1,30 @@
+table{
+    min-width: 100%;
+}
+
+.container{
+    margin: 0 30px;
+}
+
+
+i.edit{
+    color: #d9cd26;
+}
+
+i.delete{
+    color: #e35e6b;
+    margin-left: 8px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer > span{
+    font-size: 1.1rem;
+    font-weight: 300;
+}

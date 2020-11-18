@@ -1,0 +1,39 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    margin-top: 10px;
+}
+
+table{
+    margin: 0 30px
+}
+.container{
+    margin: 0 30px;
+}
+.btn-cancel{
+    margin-left: 10px;
+}
+
+.title{
+    text-align: center;
+}
+
+.header{
+    margin-bottom: 80px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer > span{
+    font-size: 1.1rem;
+    font-weight: 300;
+}

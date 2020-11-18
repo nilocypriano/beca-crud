@@ -1,0 +1,37 @@
+<mat-toolbar class="header mat-elevation-z2" color="primary">
+    <span>ToDo Menager</span>
+</mat-toolbar>
+
+<mat-card class="container mat-elevation-z8">
+    <mat-card-title class="title">
+        Novo Produto
+    </mat-card-title>
+
+    <form>
+
+        <mat-form-field>
+            <input matInput placeholder="Nome" [(ngModel)]="note.name" name="name" >
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Email" [(ngModel)]="note.email" name="email">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Tarefa" [(ngModel)]="note.note" name="note">
+        </mat-form-field>
+    </form>
+
+    <button mat-raised-button color="primary" (click)="createNote()" aria-label="confirm task creation">
+
+        Salvar
+    </button>
+
+    <button mat-raised-button routerLink="" aria-label="cancel task creation">
+
+        Cancelar
+    </button>
+
+</mat-card>
+
+<mat-toolbar class="footer mat-elevation-z2" color="primary">
+    <span>Desenvolvido por Bruna e Jeferson</span>
+</mat-toolbar>

@@ -1,0 +1,42 @@
+<mat-toolbar class="header mat-elevation-z2" color="primary">
+    <span>Tarefas</span>
+</mat-toolbar>
+
+<mat-card class="container mat-elevation-z8">
+    <mat-card-title class="title">
+        EXCLUIR TAREFA
+    </mat-card-title>
+
+    <form>
+
+<mat-form-field>
+    <input matInput placeholder="Nome" 
+    [value]="note.name" name="name" aria-disabled="true" disabled>
+</mat-form-field>
+<mat-form-field>
+    <input matInput placeholder="Email" 
+    [value]="note.email" name="email" aria-disabled="true" disabled>
+</mat-form-field>
+<mat-form-field>
+    <input matInput placeholder="Tarefa" 
+    [value]="note.note" name="note" aria-disabled="true" disabled>
+</mat-form-field>
+
+    </form>
+
+    <button mat-raised-button (click)="deleteNote(note.id)" color="warn" aria-label="confirm task edition">
+
+     Excluir
+    </button>
+    
+    <button  mat-raised-button routerLink="" color="primary" aria-label="cancel task deletion">    
+    Cancelar
+    </button>
+
+
+</mat-card>
+
+
+<mat-toolbar class="footer mat-elevation-z2" color="primary">
+    <span>Desenvolvido por Bruna e Jeferson</span>
+</mat-toolbar>

@@ -1,0 +1,37 @@
+form{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5px;
+}
+
+button{
+    margin: 20px 15px 0 0;
+
+}
+
+.title{
+    text-align: center;
+}
+.header{
+    margin-bottom: 60px;
+}
+
+.container{
+    margin: 50px 30px;
+}
+table{
+    min-width: 100%;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer > span{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
